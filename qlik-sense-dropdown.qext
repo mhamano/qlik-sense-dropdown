@@ -1,5 +1,5 @@
 {
-	"name": "Qlik Sense Dropdown Listbox",
+	"name": "Qlik Sense Dropdown",
 	"description": "Dropdow Listbox extension for Qlik Sense",
 	"icon": "list",
 	"type": "visualization",

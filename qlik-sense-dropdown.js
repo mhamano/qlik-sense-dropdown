@@ -181,9 +181,6 @@ define( ["qlik", "jquery", "text!./style.css"], function ( qlik, $, cssContent )
 			var self = this, html = "<select id='drowdown-" + layout.qInfo.qId + "'>";
 			layout.qListObject.qDataPages[0].qMatrix.forEach( function ( row ) {
 				html += '<option ' + ((row[0].qState == 'S')? 'selected="selected"':'') + '" value="' + row[0].qElemNumber + '">' + row[0].qText;
-				if ( row[0].qFrequency ) {
-					html += '<span>' + row[0].qFrequency + '</span>';
-				}
 				html += '</option>';
 			} );
 			html += "</select>";
