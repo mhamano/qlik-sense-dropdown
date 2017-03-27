@@ -1,0 +1,12 @@
+.qv-object-qlik-sense-dropdown div.qv-object-content-container {
+	overflow: auto;
+}
+
+.qv-object-qlik-sense-dropdown select {
+	width: 100%;
+}
+
+.qv-object-qlik-sense-dropdown select option {
+	padding: 2px;
+}
+
